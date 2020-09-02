@@ -111,6 +111,7 @@ export default {
             border-radius: 4px;
 
             .head {
+                color: #061e37;
                 cursor: pointer;
                 user-select: none;
 
@@ -128,6 +129,7 @@ export default {
             }
 
             .body {
+                color: #061e37;
                 text-align: left;
                 margin-top: dpi(0.0);
                 display: flex;

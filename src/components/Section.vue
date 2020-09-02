@@ -87,10 +87,12 @@ export default {
     .grid-1 {
         &.main {
             padding-top: dpi(3);
+            //text-align: left;
 
             h3,
             span {
                 color: rgb(176, 190, 197);
+                text-align: left;
             }
         }
     }

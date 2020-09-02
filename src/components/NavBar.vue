@@ -92,11 +92,21 @@ export default {
 
         &>.button {
             @include button();
+            --border: 1px;
             border: solid 1px white;
             float: right;
             box-shadow: 0px 5px 5px rgba(0, 0, 0, 0);
-            padding-top: dpi(0.25);
-            padding-bottom: dpi(0.25);
+            padding-top: calc(#{dpi(0.25)} + #{var(--border)});
+            padding-bottom: calc(#{dpi(0.25)} + #{var(--border)});
+            padding-left: calc(#{dpi(0.5)} + #{var(--border)});
+            padding-right: calc(#{dpi(0.5)} + #{var(--border)});
+
+            &:active {
+                --border: 0px;
+                border: solid 2px white;
+                transform: translate(0px, 0px);
+                box-shadow: 0px 0px 0px transparent;
+            }
         }
     }
 }

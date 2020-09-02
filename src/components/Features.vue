@@ -65,6 +65,7 @@ export default {
             line-height: 1.2;
             padding: dpi(0.25);
             font-size: dpi(0.6);
+            text-align: left;
         }
 
         &.n1 {

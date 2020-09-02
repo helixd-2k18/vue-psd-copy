@@ -274,7 +274,7 @@
   
   .viewport > * {
       box-sizing: border-box;
-      width: 100%; //1600px;
+      width: 100%;
   }
   
   .padding-normal {
