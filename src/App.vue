@@ -6,6 +6,7 @@
 </div>
 <Section msg="" />
 <Features msg="" />
+<Services msg="" />
 
 <!--</div>-->
 </template>
@@ -15,6 +16,7 @@ import NavBar from './components/NavBar.vue'
 import Intro from './components/Intro.vue'
 import Section from './components/Section.vue'
 import Features from './components/Features.vue'
+import Services from './components/Services.vue'
 
 export default {
     name: 'App',
@@ -22,7 +24,8 @@ export default {
         NavBar,
         Intro,
         Section,
-        Features
+        Features,
+        Services
     }
 }
 </script>
