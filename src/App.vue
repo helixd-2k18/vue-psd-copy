@@ -5,6 +5,7 @@
     <Intro msg="" />
 </div>
 <Section msg="" />
+<Features msg="" />
 
 <!--</div>-->
 </template>
@@ -13,13 +14,15 @@
 import NavBar from './components/NavBar.vue'
 import Intro from './components/Intro.vue'
 import Section from './components/Section.vue'
+import Features from './components/Features.vue'
 
 export default {
     name: 'App',
     components: {
         NavBar,
         Intro,
-        Section
+        Section,
+        Features
     }
 }
 </script>
